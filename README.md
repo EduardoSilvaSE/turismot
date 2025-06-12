@@ -30,8 +30,13 @@ CREATE TABLE `destinos` (
 );
 
 
+INSERT INTO clientes (nome, email, senha, role) 
+VALUES ('Administrador', 'gui@xemplo.com', '$2y$10$efgAyOUby8STX7PZg/D3Ou6O4CApLI1evRCdZ3MT8VDB28mLy136G', 'admin');
+
+UPDATE clientes 
+SET senha = '$2y$10$efgAyOUby8STX7PZg/D3Ou6O4CApLI1evRCdZ3MT8VDB28mLy136G', role = 'admin' 
+WHERE email = 'admin@exemplo.com';
+
 ALTER TABLE `clientes` ADD `role` VARCHAR(50) NOT NULL DEFAULT 'user';
 
 UPDATE `clientes` SET `role` = 'admin' WHERE `email` = 'gui@xemplo.com';
-
-
