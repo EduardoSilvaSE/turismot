@@ -1,0 +1,63 @@
+/* Estilos para o Painel do Administrador */
+.admin-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.admin-section {
+    margin-bottom: 2rem;
+}
+.admin-section h2 {
+    color: #0066cc;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.admin-form {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.admin-form .form-group {
+    margin-bottom: 1rem;
+}
+.admin-form .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.admin-form .form-group input,
+.admin-form .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.admin-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.admin-table th, .admin-table td {
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.admin-table thead {
+    background-color: #0066cc;
+    color: white;
+}
+.action-links a {
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+hr {
+  margin: 3rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
