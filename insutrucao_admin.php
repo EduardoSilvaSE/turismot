@@ -96,5 +96,4 @@ echo "</ul>";
         </p>
     </div>
 </body>
->>>>>>> f68e7e7dc823a2e7cf16cadde3e77fba0faf8cb1:insutrucao_admin.php
 </html>
