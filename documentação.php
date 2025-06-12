@@ -6,11 +6,17 @@ echo "<li><a href='./includes/cliente.php'>classes</a></li>";
 echo "</ul>";
 ?>
 
-<div class="instrucoes"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="instrucoes"></div>
 <h2>  Manual do Administrador: Gerenciamento de Destinos de Turismo </h2>
-</div>
-
-<p>Este guia destina-se aos administradores do site e explica como adicionar, gerenciar e remover os pacotes de turismo que são exibidos na página inicial.</p>
+    <p>Este guia destina-se aos administradores do site e explica como adicionar, gerenciar e remover os pacotes de turismo que são exibidos na página inicial.</p>
 
 <h3>Passo 1: Acessar o Painel de Administrador</h3>
         <ol>
@@ -38,3 +44,5 @@ echo "</ul>";
             USUARIO: gui@xemplo.com
             SENHA:123
         </p>
+</body>
+</html>
