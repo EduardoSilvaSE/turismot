@@ -14,7 +14,7 @@ echo "</ul>";
     <title>Document</title>
 </head>
 <body>
-    <div class="instrucoes"></div>
+    <div class="instrucoes">
 <h2>  Manual do Administrador: Gerenciamento de Destinos de Turismo </h2>
     <p>Este guia destina-se aos administradores do site e explica como adicionar, gerenciar e remover os pacotes de turismo que são exibidos na página inicial.</p>
 
@@ -44,5 +44,6 @@ echo "</ul>";
             USUARIO: gui@xemplo.com
             SENHA:123
         </p>
+    </div>
 </body>
 </html>
